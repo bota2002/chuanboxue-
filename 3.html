@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资源中心</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .main-content {
+            padding: 20px;
+            background-color: #e6ffe6;
+        }
+
+        .section {
+            margin-bottom: 20px;
+
+        }
+
+        .circle-button {
+            display: inline-block;
+            background-color: #ffffcc;
+            color: #0066ff;
+            padding: 10px 10px;
+            border-radius: 50%;
+            margin: 10px;
+            font-size: 35px;
+            font-weight: bold;
+            width: 90px;
+            height: 90px;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section1 {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .section2 {
+
+            margin-top: 120px;s
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            overflow: hidden;
+        }
+
+        .image-placeholder {
+            background-color: #f0f0f0;
+            height: 150px;
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            color: #999;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .section2 .list-item {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .list-content {
+            width: 70%;
+        }
+
+        .list-content p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .list-footer {
+            display: flex;
+            justify-content: space-between;
+            color: #999;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .list-image-placeholder {
+            background-color: #f0f0f0;
+            width: 25%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="#" class="back-button">&#8249;</a>
+    </div>
+    <div class="nav-center">
+        <span class="nav-title">资源中心</span>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="menu-button">&#8942;</a>
+    </div>
+</nav>
+<header class="header">
+    <div class="search-bar">
+
+        <input type="text" placeholder="搜索">
+        <button class="search-button">&#128269;</button>
+    </div>
+</header>
+<main class="main-content">
+    <section class="section section1"
+             style="display: flex;text-align: center;justify-content: left;margin: 0 30px">
+        <div class="circle-button">课程资源</div>
+        <div class="circle-button">知名校友</div>
+    </section>
+    <section class="section section1">
+        <div class="card">
+            <div class="image-placeholder"></div>
+            <div class="card-content">
+                <p>标题标题标题标题标题标题标题标题标题标题标题</p>
+                <div class="card-footer">
+                    <span>用户名</span>
+                    <span>💬 120</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-placeholder"></div>
+            <div class="card-content">
+                <p>标题标题标题标题标题标题标题标题标题标题标题</p>
+                <div class="card-footer">
+                    <span>用户名</span>
+                    <span>💬 120</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section2">
+        <div class="list-item">
+            <div class="list-content">
+                <p>标题名称标题名称标题名称标题名称标题名称标题名称</p>
+                <div class="list-footer">
+                    <span>作者</span>
+                    <span>2024/03/25</span>
+                    <span>98 收藏</span>
+                </div>
+            </div>
+            <div class="list-image-placeholder"></div>
+        </div>
+        <div class="list-item">
+            <div class="list-content">
+                <p>标题名称标题名称标题名称标题名称标题名称标题名称</p>
+                <div class="list-footer">
+                    <span>作者</span>
+                    <span>2024/03/25</span>
+                    <span>98 收藏</span>
+                </div>
+            </div>
+            <div class="list-image-placeholder"></div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互动</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .headers {
+            background-color: #e6ffe6;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .tab-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #ffffff;
+            width: 300px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 10px;
+            background-color: #fff;
+            color: #666;
+            font-size: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+             width: 140px;
+        }
+
+        .tab.active {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+
+        .main-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #e6ffe6;
+        }
+
+        .banner img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        .card {
+            display: flex;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            width: 100%;
+            max-width: 600px;
+            overflow: hidden;
+        }
+
+        .card-accent {
+            width: 10px;
+            background-color: #ffcc66;
+        }
+
+        .card-content {
+            padding: 10px;
+            width: 100%;
+            display: flex;
+
+
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            color: #999;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .list-image-placeholder {
+            background-color: #f0f0f0;
+            width: 80px;
+            height: 80px;
+            align-self: flex-end;
+            border-radius: 5px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="#" class="back-button">&#8249;</a>
+    </div>
+    <div class="nav-center">
+        <span class="nav-title">互动</span>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="menu-button">&#8942;</a>
+    </div>
+</nav>
+<header class="header">
+    <div class="search-bar">
+
+        <input type="text" placeholder="搜索">
+        <button class="search-button">&#128269;</button>
+    </div>
+</header>
+<header class="headers">
+    <div class="tab-container">
+        <div class="tab ">讨论</div>
+        <div class="tab active">问题</div>
+    </div>
+</header>
+<main class="main-content">
+    <div class="banner">
+        <img src="./logo.jpg" alt="School of Media and Design">
+    </div>
+    <div class="card">
+        <div class="card-accent"></div>
+        <div class="card-content">
+            <div>
+                <p>标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称</p>
+                <div class="card-footer">
+                    <span>作者</span>
+                    <span>2024/03/25</span>
+                    <span>98 收藏</span>
+                </div>
+            </div>
+            <div class="list-image-placeholder"></div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-accent"></div>
+        <div class="card-content">
+            <div>
+                <p>标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称</p>
+                <div class="card-footer">
+                    <span>作者</span>
+                    <span>2024/03/25</span>
+                    <span>98 收藏</span>
+                </div>
+            </div>
+            <div class="list-image-placeholder"></div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-accent"></div>
+        <div class="card-content">
+            <div>
+                <p>标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称</p>
+                <div class="card-footer">
+                    <span>作者</span>
+                    <span>2024/03/25</span>
+                    <span>98 收藏</span>
+                </div>
+            </div>
+            <div class="list-image-placeholder"></div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-accent"></div>
+        <div class="card-content">
+            <div>
+                <p>标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称标题名称</p>
+                <div class="card-footer">
+                    <span>作者</span>
+                    <span>2024/03/25</span>
+                    <span>98 收藏</span>
+                </div>
+            </div>
+            <div class="list-image-placeholder"></div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

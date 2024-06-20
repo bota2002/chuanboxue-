@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生天地</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #ffffff;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #666;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .navbar a.active {
+            background-color: #0066ff;
+            color: #ffffff;
+        }
+
+        .main-content {
+            padding: 20px;
+            background-color: #e6ffe6;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #0099ff;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .content-box {
+            background-color: #ffcc99;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+
+        .section2 .content-box {
+            background-color: #ff9966;
+
+        }
+
+        .section3 .content-box {
+            background-color: #99ccff;
+            height: 100px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="#" class="back-button">&#8249;</a>
+    </div>
+    <div class="nav-center">
+        <span class="nav-title">学生天地</span>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="menu-button">&#8942;</a>
+    </div>
+</nav>
+<header class="header">
+    <div class="search-bar">
+
+        <input type="text" placeholder="搜索">
+        <button class="search-button">&#128269;</button>
+    </div>
+</header>
+<nav class="navbar">
+    <a href="#">学工通知</a>
+    <a href="#">学生党建</a>
+    <a href="#">团学活动</a>
+    <a href="#">科研竞赛</a>
+    <a href="#" class="active">学生作品</a>
+</nav>
+<main class="main-content">
+    <section class="section section1">
+        <h2>学工通知</h2>
+        <div class="content-box"></div>
+    </section>
+    <div style="display: flex;gap: 50px">
+        <section class="section section2" style="flex: 1">
+            <h2>党建</h2>
+            <div class="content-box"></div>
+        </section>
+
+        <section class="section section2" style="flex: 1">
+            <h2>团学活动</h2>
+            <div class="content-box"></div>
+        </section>
+    </div>
+
+    <section class="section section3">
+        <h2>未来竞赛</h2>
+        <div class="content-box"></div>
+    </section>
+    <section class="section section4">
+
+        <div class="gallery">
+            <h2 style="width: 1em">作品展示</h2>
+            <img src="./z1.jpg" alt="作品1">
+            <img src="./z2.jpg" alt="作品2">
+            <img src="./z3.jpg" alt="作品3">
+        </div>
+    </section>
+</main>
+</body>
+</html>
